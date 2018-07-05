@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  font-size: 100em;
+}
+
+.gameTitle {
+  font-size: 7em;
+  padding: 32px;
+}
+
+.playerSection {
+  width: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  height:auto;
+}
+
+.playerContainer {
+  flex-shrink: 1;
+  flex-basis: 120px;
+  border: 5px solid rgba(0,127,255,.2);
+  border-radius: 20px;
+  background: rgba(0,255,255,1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.playerPhase {
+  font-size: 4em;
+}
+
+.playerScore {
+  font-size: 2.5em;
+}
+
+.playerName {
+  font-size: 2em;
+}
+
+.playerTurn {
+  padding: 5px;
+  font-size: 1.5em;
+  background-color: rgba(0,0,255,.5);
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreInputDiv {
+  display: flex;
+  margin: 5px;
+}
+
+.scoreInput {
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  flex-shrink: 1;
+  font-size: 1em;
+  scroll-behavior: none;
+}
+
+.phaseCheckDiv {
+  margin: 5px;
+  font-size: .75em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
