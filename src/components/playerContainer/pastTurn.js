@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-export default PastTurn = (props) => {
+const PastTurn = (props) => {
 <div>
     <div>
       {props.score}
@@ -10,3 +10,5 @@ export default PastTurn = (props) => {
     </div>
   </div>
 }
+
+export default PastTurn;

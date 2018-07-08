@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PlayerTurn = () => (
+const PlayerTurn = (props) => (
   <div className='playerTurn'>
     <div className='scoreInputDiv'>
       <input
@@ -15,6 +15,7 @@ const PlayerTurn = () => (
       <input
         type='checkbox'
         className='phaseCheck'
+        onClick={props.phaseClicked}
       />
     </div>
   </div>
