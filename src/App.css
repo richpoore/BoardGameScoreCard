@@ -7,7 +7,6 @@
   height: 150px;
   padding: 20px;
   color: white;
-  font-size: 100em;
 }
 
 .gameTitle {
@@ -18,9 +17,10 @@
 .playerSection {
   width: auto;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
   height:auto;
+  margin: 32px
 }
 
 .playerContainer {
@@ -29,10 +29,10 @@
   border: 5px solid rgba(0,127,255,.2);
   border-radius: 20px;
   background: rgba(0,255,255,1);
-
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+
 }
 
 .playerPhase {

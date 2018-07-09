@@ -1,7 +1,7 @@
 import React from 'react';
 import PlayerTurn from './playerTurn';
 import PlayerHeader from './playerHeader';
-import PastTurn from './pastTurn'
+// import PastTurn from './pastTurn'
 
 const PlayerContainer = (props) => (
   <span className='playerContainer'>
