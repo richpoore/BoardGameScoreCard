@@ -38,23 +38,23 @@ class App extends Component {
   }
 
   render() {
-
-    console.log(this.state);
+    const players=this.state.scores;
+    console.log(players);
     return (
       <div className="App">
         <header className='App-header flex-container'>
           <GameTitle title="Phase 10" />
         </header>
         <div className="playerSection">
-        {this.state.scores.map(player => {
+        {players.map(player => {
           console.log(player);
-          return <PlayerContainer
+          return (<PlayerContainer
             fname="player.playerName"
             age={player.age}
             score={player.score}
             phaseClicked={this.phaseClickHandler}
             key={player.id}
-          />
+          />)
         })}
           <PlayerContainer
           fName={this.state.scores[0].playerName}
