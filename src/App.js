@@ -49,9 +49,9 @@ class App extends Component {
         {players.map(player => {
           console.log(player);
           return (<PlayerContainer
-            fname="player.playerName"
-            age={player.age}
-            score={player.score}
+            fname={player.playerName}
+            phase={player.playerPhase}
+            score={player.playerScore}
             phaseClicked={this.phaseClickHandler}
             key={player.id}
           />)
